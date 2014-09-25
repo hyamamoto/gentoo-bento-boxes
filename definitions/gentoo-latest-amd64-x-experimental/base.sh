@@ -49,7 +49,7 @@ chroot "$chroot" env-update
 
 # bring up network interface and sshd on boot (for older systemd naming scheme, eth0)
 chroot "$chroot" /bin/bash <<DATAEOF
-ln -s /dev/null /etc/udev/rules.d/80-net-name-slot.rules
+ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
 DATAEOF
 chroot "$chroot" /bin/bash <<DATAEOF
 cd /etc/conf.d
