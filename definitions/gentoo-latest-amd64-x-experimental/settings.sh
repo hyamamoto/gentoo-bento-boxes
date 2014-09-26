@@ -21,8 +21,8 @@ export accept_keywords="amd64"
 export chost="x86_64-pc-linux-gnu"
 
 # kernel version to use
-export kernel_version="3.10.17"
-export kernel_image_version="3.10.17-gentoo"
+export kernel_version="3.10.41-r1"
+export kernel_image_version="3.10.41-gentoo-r1"
 
 # timezone (as a subdirectory of /usr/share/zoneinfo)
 export timezone="UTC"
